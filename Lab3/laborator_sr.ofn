@@ -1,0 +1,208 @@
+Prefix(:=<http://www.semanticweb.org/crist/ontologies/2025/9/laborator3/>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://www.semanticweb.org/crist/ontologies/2025/9/laborator3>
+
+Declaration(Class(<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#AussiePizza>))
+Declaration(Class(<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#CheeseTopping>))
+Declaration(Class(<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#CrustType>))
+Declaration(Class(<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#EggTopping>))
+Declaration(Class(<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#HamTopping>))
+Declaration(Class(<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#LargeSize>))
+Declaration(Class(<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#MargheritaPizza>))
+Declaration(Class(<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#MediumSize>))
+Declaration(Class(<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#Pizza>))
+Declaration(Class(<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#PizzaSize>))
+Declaration(Class(<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#PizzaTopping>))
+Declaration(Class(<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#SmallSize>))
+Declaration(Class(<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#StuffedCrust>))
+Declaration(Class(<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#ThickCrust>))
+Declaration(Class(<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#ThinCrust>))
+Declaration(Class(<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#TomatoTopping>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#hasCrustType>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#hasSize>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#hasTopping>))
+Declaration(DataProperty(<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#calories>))
+Declaration(DataProperty(<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#cost>))
+Declaration(DataProperty(<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#isSpicy>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#AussieOne>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#Gorgonzola>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#HamSlices>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#LargeSizeInstance>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#MargheritaOne>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#MediumSizeInstance>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#SmallSizeInstance>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#StuffedCrustInstance>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#ThickCrustInstance>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#ThinCrustInstance>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#TomatoSauce>))
+
+############################
+#   Object Properties
+############################
+
+# Object Property: <http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#hasCrustType> (<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#hasCrustType>)
+
+ObjectPropertyDomain(<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#hasCrustType> <http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#Pizza>)
+ObjectPropertyRange(<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#hasCrustType> <http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#CrustType>)
+
+# Object Property: <http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#hasSize> (<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#hasSize>)
+
+ObjectPropertyDomain(<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#hasSize> <http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#Pizza>)
+ObjectPropertyRange(<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#hasSize> <http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#PizzaSize>)
+
+# Object Property: <http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#hasTopping> (<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#hasTopping>)
+
+ObjectPropertyDomain(<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#hasTopping> <http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#Pizza>)
+ObjectPropertyRange(<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#hasTopping> <http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#PizzaTopping>)
+
+
+############################
+#   Data Properties
+############################
+
+# Data Property: <http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#calories> (<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#calories>)
+
+DataPropertyDomain(<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#calories> <http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#Pizza>)
+DataPropertyRange(<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#calories> xsd:integer)
+
+# Data Property: <http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#cost> (<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#cost>)
+
+DataPropertyDomain(<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#cost> <http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#Pizza>)
+DataPropertyRange(<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#cost> xsd:float)
+
+# Data Property: <http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#isSpicy> (<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#isSpicy>)
+
+DataPropertyDomain(<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#isSpicy> <http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#Pizza>)
+DataPropertyRange(<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#isSpicy> xsd:boolean)
+
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#AussiePizza> (<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#AussiePizza>)
+
+SubClassOf(<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#AussiePizza> <http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#Pizza>)
+SubClassOf(<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#AussiePizza> ObjectSomeValuesFrom(<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#hasTopping> <http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#CheeseTopping>))
+SubClassOf(<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#AussiePizza> ObjectSomeValuesFrom(<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#hasTopping> <http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#EggTopping>))
+SubClassOf(<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#AussiePizza> ObjectSomeValuesFrom(<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#hasTopping> <http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#HamTopping>))
+SubClassOf(<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#AussiePizza> ObjectSomeValuesFrom(<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#hasTopping> <http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#TomatoTopping>))
+
+# Class: <http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#CheeseTopping> (<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#CheeseTopping>)
+
+SubClassOf(<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#CheeseTopping> <http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#PizzaTopping>)
+
+# Class: <http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#EggTopping> (<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#EggTopping>)
+
+SubClassOf(<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#EggTopping> <http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#PizzaTopping>)
+
+# Class: <http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#HamTopping> (<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#HamTopping>)
+
+SubClassOf(<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#HamTopping> <http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#PizzaTopping>)
+
+# Class: <http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#LargeSize> (<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#LargeSize>)
+
+SubClassOf(<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#LargeSize> <http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#PizzaSize>)
+
+# Class: <http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#MargheritaPizza> (<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#MargheritaPizza>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#MargheritaPizza> "According to legend, in 1889, the Margherita Pizza was created and named after Queen Margherita.")
+SubClassOf(<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#MargheritaPizza> <http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#Pizza>)
+SubClassOf(<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#MargheritaPizza> ObjectSomeValuesFrom(<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#hasTopping> <http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#CheeseTopping>))
+SubClassOf(<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#MargheritaPizza> ObjectSomeValuesFrom(<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#hasTopping> <http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#TomatoTopping>))
+
+# Class: <http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#MediumSize> (<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#MediumSize>)
+
+SubClassOf(<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#MediumSize> <http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#PizzaSize>)
+
+# Class: <http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#SmallSize> (<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#SmallSize>)
+
+SubClassOf(<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#SmallSize> <http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#PizzaSize>)
+
+# Class: <http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#StuffedCrust> (<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#StuffedCrust>)
+
+SubClassOf(<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#StuffedCrust> <http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#CrustType>)
+
+# Class: <http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#ThickCrust> (<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#ThickCrust>)
+
+SubClassOf(<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#ThickCrust> <http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#CrustType>)
+
+# Class: <http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#ThinCrust> (<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#ThinCrust>)
+
+SubClassOf(<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#ThinCrust> <http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#CrustType>)
+
+# Class: <http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#TomatoTopping> (<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#TomatoTopping>)
+
+SubClassOf(<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#TomatoTopping> <http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#PizzaTopping>)
+
+
+############################
+#   Named Individuals
+############################
+
+# Individual: <http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#AussieOne> (<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#AussieOne>)
+
+ClassAssertion(<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#AussiePizza> <http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#AussieOne>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#hasCrustType> <http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#AussieOne> <http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#ThickCrustInstance>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#hasSize> <http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#AussieOne> <http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#LargeSizeInstance>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#hasTopping> <http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#AussieOne> <http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#HamSlices>)
+DataPropertyAssertion(<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#calories> <http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#AussieOne> "1500"^^xsd:integer)
+DataPropertyAssertion(<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#cost> <http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#AussieOne> "15.2"^^xsd:float)
+DataPropertyAssertion(<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#isSpicy> <http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#AussieOne> "true"^^xsd:boolean)
+
+# Individual: <http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#Gorgonzola> (<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#Gorgonzola>)
+
+ClassAssertion(<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#CheeseTopping> <http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#Gorgonzola>)
+
+# Individual: <http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#HamSlices> (<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#HamSlices>)
+
+ClassAssertion(<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#HamTopping> <http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#HamSlices>)
+
+# Individual: <http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#LargeSizeInstance> (<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#LargeSizeInstance>)
+
+ClassAssertion(<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#LargeSize> <http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#LargeSizeInstance>)
+
+# Individual: <http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#MargheritaOne> (<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#MargheritaOne>)
+
+ClassAssertion(<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#MargheritaPizza> <http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#MargheritaOne>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#hasCrustType> <http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#MargheritaOne> <http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#ThinCrustInstance>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#hasSize> <http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#MargheritaOne> <http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#MediumSizeInstance>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#hasTopping> <http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#MargheritaOne> <http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#Gorgonzola>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#hasTopping> <http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#MargheritaOne> <http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#TomatoSauce>)
+DataPropertyAssertion(<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#calories> <http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#MargheritaOne> "1000"^^xsd:integer)
+DataPropertyAssertion(<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#cost> <http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#MargheritaOne> "6.25"^^xsd:float)
+DataPropertyAssertion(<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#isSpicy> <http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#MargheritaOne> "false"^^xsd:boolean)
+
+# Individual: <http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#MediumSizeInstance> (<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#MediumSizeInstance>)
+
+ClassAssertion(<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#MediumSize> <http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#MediumSizeInstance>)
+
+# Individual: <http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#SmallSizeInstance> (<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#SmallSizeInstance>)
+
+ClassAssertion(<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#SmallSize> <http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#SmallSizeInstance>)
+
+# Individual: <http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#StuffedCrustInstance> (<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#StuffedCrustInstance>)
+
+ClassAssertion(<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#StuffedCrust> <http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#StuffedCrustInstance>)
+
+# Individual: <http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#ThickCrustInstance> (<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#ThickCrustInstance>)
+
+ClassAssertion(<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#ThickCrust> <http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#ThickCrustInstance>)
+
+# Individual: <http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#ThinCrustInstance> (<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#ThinCrustInstance>)
+
+ClassAssertion(<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#ThinCrust> <http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#ThinCrustInstance>)
+
+# Individual: <http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#TomatoSauce> (<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#TomatoSauce>)
+
+ClassAssertion(<http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#TomatoTopping> <http://www.semanticweb.org/crist/ontologies/2025/9/untitled-ontology-2#TomatoSauce>)
+
+
+)
